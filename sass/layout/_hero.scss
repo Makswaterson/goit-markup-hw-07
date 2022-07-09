@@ -40,11 +40,11 @@
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: linear;
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #188ce8;
-  transform: scale(1.25);
-  transition-duration: 250ms;
-  transition-timing-function: linear;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    transform: scale(1.25);
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+  }
 }
