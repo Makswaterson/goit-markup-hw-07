@@ -372,8 +372,8 @@ body {
 .social__link:focus {
   background-color: #2196f3;
 }
-.social__link:hover .social__icons,
-.social__link:focus .social__icons {
+.social__link:hover.social__icons,
+.social__link:focus.social__icons {
   fill: #ffffff;
 }
 /* <!-- ---------------------------------------Clients------------------------------> */
